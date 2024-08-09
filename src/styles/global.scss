@@ -73,7 +73,13 @@ body {
   font-style: normal;
   font-display: swap;
 }
-
+@font-face {
+  font-family: 'AlimamaDongFangDaKai';
+  src: url('/fonts/AlimamaDongFangDaKai.woff2') format('woff2');
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
 ol {
   @apply pl-[40px] list-decimal;
 }
@@ -144,12 +150,12 @@ table tr {
 }
 
 code {
-  font-family: 'Cascadia';
+  font-family: 'AlimamaDongFangDaKai';
   @apply text-xl p-[2px_5px] rounded-sm;
 }
 
 pre {
-  font-family: 'Cascadia';
+  font-family: 'AlimamaDongFangDaKai';
   padding: 10px;
 }
 
@@ -218,7 +224,7 @@ thead th {
 }
 
 .highlight .code-lang {
-  font-family: 'Cascadia';
+  font-family: 'AlimamaDongFangDaKai';
   user-select: none;
 }
 
