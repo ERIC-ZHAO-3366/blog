@@ -95,19 +95,19 @@ export const menuItems = [
 // Social media and contact icons
 export const socialIcons = [
   {
-    href: "https://afdian.net/a/saroprock",
+    href: "mailto:ericzhao3366@dingtalk.com",
     ariaLabel: "Support my work",
     title: "Support my work",
     svg: "support",
   },
   {
-    href: "https://github.com/EveSunMaple",
+    href: "https://github.com/ERIC-ZHAO-3366",
     ariaLabel: "Github",
     title: "Github",
     svg: "github",
   },
   {
-    href: "https://space.bilibili.com/438392347",
+    href: "https://space.bilibili.com/485275168",
     ariaLabel: "BiliBili",
     title: "BiliBili",
     svg: "bilibili",
