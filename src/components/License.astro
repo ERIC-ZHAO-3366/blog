@@ -1,0 +1,28 @@
+---
+const { title, url } = Astro.props;
+---
+
+<br />
+<div role="alert" class="alert">
+  <svg
+    viewBox="0 0 24 24"
+    fill="none"
+    xmlns="http://www.w3.org/2000/svg"
+    class="stroke-current shrink-0 h-6 w-6"
+  >
+    <path
+      d="M 21 12 a 9 9 0 1 1 -18 0 a 9 9 0 0 1 18 0 z"
+      stroke-width="2"
+      stroke-linecap="round"
+      stroke-linejoin="round"></path>
+    <path
+      d="M14.646 9.00002C13.0379 7.58179 10.5975 7.6838 9.11336 9.23129C7.62921 10.7788 7.62921 13.2213 9.11336 14.7688C10.5975 16.3162 13.0379 16.4182 14.646 15"
+      stroke-width="2"
+      stroke-linecap="round"
+      stroke-linejoin="round"></path>
+  </svg>
+  <div class="p-4">
+    <h3 class="font-bold mt-0">{title}</h3>
+    <a href={url} class="text-xs">{url}</a>
+  </div>
+</div>

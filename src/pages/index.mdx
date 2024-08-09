@@ -1,0 +1,73 @@
+import BaseLayout from "../layouts/BaseLayout.astro";
+import BaseCard from "../components/BaseCard.astro";
+import Collapse from "../components/blog/collapse.astro";
+import Diff from "../components/blog/diff.astro";
+import Error from "../components/blog/error.astro";
+import Info from "../components/blog/info.astro";
+import Kbd from "../components/blog/kbd.astro";
+import Success from "../components/blog/success.astro";
+import Warning from "../components/blog/warning.astro";
+import TimeLine from "../components/page/TimeLine.astro";
+import LinkCard from "../components/page/LinkCard.astro";
+
+<BaseLayout title="Home">
+  <BaseCard title="Home">
+    <div class="flex">
+      <div class="p-6">
+          # Hi there! 👋
+
+          This is Eric Zhao's Blog|小赵博客
+
+          立足中国，服务全球互联网的垃圾文字贩子。
+      </div>
+    </div>
+
+  </BaseCard>
+
+  <BaseCard title="Home" image="/index.webp">
+# Myself Introduction
+
+---
+
+## Welcome to Eric Zhao's Blog|小赵博客
+
+## About Me|关于我
+
+**一个学生，同时也是一只鸽子（笑）**
+
+[**📧Mail**](mailto:ericzhao3366@dingtalk.com)
+
+### 成分概览
+
+- **拍些什么**：交通 / 云 / 花草树木 / 建筑
+- **玩点什么**：X-Plane / Microsoft Flight Simulator 2020 /Cites skylines
+- **研究什么**：飞机 / 航空 / 交通 
+- **爱吃什么**：三文鱼
+- **去过哪里:**
+  - **国内:**
+    - 浙江省[杭州市/宁波市/绍兴市/舟山市]
+    - 海南省[三亚市]
+    - 上海市[虽然大部分去都是因为坐飞机]
+    - 北京市[很久很久以前去的啦]
+    - 新疆维吾尔族自治区[乌鲁木齐市/伊利市/克拉玛依市/吐鲁番市/哈密市/塔城/石河子/阿克苏/巴音郭勒/昌吉]
+    - 广东省[广州市/深圳市/珠海市]
+    - 台湾省
+    - 香港特别行政区
+    - 澳门特别行政区
+  - **国外:**
+    - 日本[东京/大阪/北海道/京都]
+    - 印度尼西亚[巴厘岛]
+    - 泰国[曼谷/普吉岛/春蓬]
+    - 新加坡
+    - 菲律宾 [长滩岛]
+  - 前面的区域，以后再来探索吧(我才不说是我想不起来了😆
+
+## 其他特点
+
+- **岚梦交通摄影工作室**: 微信公众号/微博/哔哩哔哩 编辑
+- **16Personalities**: 指挥官 (ENTJ-T)[2024/01/23]
+
+---Eric Zhao|小赵
+
+  </BaseCard>
+</BaseLayout>

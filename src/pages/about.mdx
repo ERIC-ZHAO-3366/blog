@@ -1,0 +1,34 @@
+import BaseLayout from "../layouts/BaseLayout.astro";
+import BaseCard from "../components/BaseCard.astro";
+import Collapse from "../components/blog/collapse.astro";
+import Diff from "../components/blog/diff.astro";
+import Error from "../components/blog/error.astro";
+import Info from "../components/blog/info.astro";
+import Kbd from "../components/blog/kbd.astro";
+import Success from "../components/blog/success.astro";
+import Warning from "../components/blog/warning.astro";
+import TimeLine from "../components/page/TimeLine.astro";
+import LinkCard from "../components/page/LinkCard.astro";
+
+<BaseLayout title="About">
+  <BaseCard title="About">
+# About Eric Zhao
+
+---
+
+## 个人介绍
+
+咕咕咕！咕咕咕！咕咕咕咕咕！！！
+
+## TimeLine
+
+    <TimeLine
+
+items={[
+{ year: "2024-3-5", event: "通过Github学生包获取域名" },
+{ year: "2077-1-1", event: "咕咕咕" },
+]}
+/>
+
+  </BaseCard>
+</BaseLayout>
