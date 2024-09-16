@@ -1,53 +1,38 @@
 # 🧊 Frosti
 
-**A clean, elegant, and fast static blog template! 🚀 Developed with [Astro](https://astro.build/)!**
+[![license](https://badgen.net/github/license/EveSunMaple/Frosti)](https://github.com/EveSunMaple/Frosti/blob/main/LICENSE)&nbsp;&nbsp;&nbsp;[![release](https://badgen.net/github/release/EveSunMaple/Frosti)](https://github.com/EveSunMaple/Frosti/releases)&nbsp;&nbsp;&nbsp;[![stackblitz](https://developer.stackblitz.com/img/open_in_stackblitz_small.svg)](https://stackblitz.com/github/EveSunMaple/Frosti)
 
-[**🖥️ Frosti Demo**](https://frosti.saroprock.com)&nbsp;&nbsp;&nbsp;/&nbsp;&nbsp;&nbsp;[**🌏 Chinese README**](https://github.com/EveSunMaple/Frosti/blob/main/README.zh-CN.md)&nbsp;&nbsp;&nbsp;/&nbsp;&nbsp;&nbsp;[**❤️ My Blog**](https://www.saroprock.com)
+<pre align="center">
+A simple, elegant, and fast static blog template! 🚀 Built with Astro
+</pre>
 
-> [!NOTE]
-> It is recommended to check out the theme preview first -> https://frosti.saroprock.com
+[**🖥️ Frosti Demo**](https://frosti.saroprock.com)&nbsp;&nbsp;&nbsp;/&nbsp;&nbsp;&nbsp;[**🌏 Chinese README**](https://github.com/EveSunMaple/Frosti/blob/main/docs/README.zh-CN.md)&nbsp;&nbsp;&nbsp;/&nbsp;&nbsp;&nbsp;[**❤️My Blog**](https://www.saroprock.com)
+
+> [!TIP]
+> It is recommended to preview this theme first
 
 ## 🖥️ Preview
 
-![view](https://frosti.saroprock.com/display/Frosti_1.png)
-![view](https://frosti.saroprock.com/display/Frosti_2.png)
-![view](https://frosti.saroprock.com/display/Frosti_3.png)
-![view](https://frosti.saroprock.com/display/Frosti_4.png)
+![view](./docs/Frosti_1.png)
 
 ## ⏲️ Performance
 
-![speed](./400-lighthouse.png)
+![speed](./docs/400-lighthouse.png)
 
 ## ✨ Features
 
-- ✅ Lightning-fast access speed and excellent SEO
-- ✅ View transition animations (using ViewTransitionsAPI)
-- ✅ Sidebar integration
-  - Define sidebar content in `consts.ts`
-  - Social info card at the bottom
-  - Theme switch and back-to-top button at the bottom
-  - Persistent sidebar article directory
-- ✅ Search your articles (using pagefind)
+- ✅ Ultra-fast access speed and excellent SEO
+- ✅ View transition animations (using Swup)
+- ✅ You can search your articles (using pagefind)
 - ✅ **Day** / **Night** mode available
-- ✅ Various components to enrich your blog content
-  - Collapsible pages
-  - Link cards
-  - Timeline components
-  - Various Alerts
-  - Code block copy button
-  - Image comparison
-  - End-of-article copyright information
 - ✅ Comment system built with [Waline](https://waline.js.org/)
-- ✅ Responsive pages built with [Tailwind CSS](https://tailwindcss.com/) and [daisyUI](https://daisyui.com/)
-  - The entire blog is styled for desktop, tablet, and mobile modes
-  - Cards adapt their layout according to your device
-  - Theme switch button automatically matches the theme
-- 🛠️ Easy to use blog
-  - Installation requires only one command
+- ✅ Responsive design built with [Tailwind CSS](https://tailwindcss.com/) and [daisyUI](https://daisyui.com/)
+- 🛠️ Easy-to-use blog
+  - Installation requires just one command
   - Customize your blog content in `consts.ts`
 
 > [!IMPORTANT]
-> The comment system needs to be configured by yourself. See [Waline](https://waline.js.org/) for details. Modify `src\components\Comment.astro`
+> You need to configure the comment system yourself, see [Waline](https://waline.js.org/) for details on modifying `src\components\CommentWaline.astro`
 
 ## ✒️ Article Information
 
@@ -61,32 +46,76 @@
 |    tags     |    Article tags    |    No    |
 |    badge    |   Article badge    |    No    |
 
+> [!TIP]
+> You can pin your article by setting the `badge` attribute to `Pin`
+
 ## ⬇️ Usage
 
 > [!IMPORTANT]
-> It is not recommended to clone this repository directly to build your blog!
+> Frosti uses pnpm as the package manager. If you don’t have pnpm installed, please install it first.
 
 Use Frosti by passing the `--template` parameter to the `create astro` command!
 
 ```sh
-npm create astro@latest -- --template EveSunMaple/Frosti
+pnpm create astro@latest -- --template EveSunMaple/Frosti
 ```
 
+<details>
+  <summary><h3>Encountering Issues? Build by Cloning This Repository!</h3></summary>
+
+1. Install the pnpm package manager
+
+```sh
+npm i -g pnpm
+```
+
+2. Clone the project
+
+```sh
+git clone --depth 1 https://github.com/EveSunMaple/Frosti.git Frosti
+```
+
+3. Enter the project folder
+
+```sh
+cd Frosti
+```
+
+4. Install dependencies
+
+```sh
+pnpm i
+```
+
+5. Debug and run the project
+
+```sh
+pnpm run dev # Start the debug server
+
+pnpm run build # Build the project as static files
+```
+
+</details>
+
 > [!NOTE]
-> Frosti builds by default using pnpm. If you encounter errors, please run `pnpm update`
+> Frosti is built using pnpm by default. If you encounter any errors, please run `pnpm update`.
 
-## 🎯 Plans
+> [!TIP]
+> You can also deploy Frosti using other methods such as Vercel, Netlify, etc. However, you need to be familiar with the basic usage of these services.
+> [Astro-supported deployment methods](https://docs.astro.build/zh-cn/guides/deploy/)
 
-- [ ] Try integrating headless CMS
+## 🎯 Roadmap
+
+- [ ] Attempt to integrate a headless CMS
 - [ ] Fix known style bugs
 - [ ] More...
 
 ## 👀 Issues
 
-If you find any problems, please submit an Issue!
+If you have any questions or suggestions, feel free to submit an issue or communicate with the developers!
 
 ## 🎉 Thanks
 
 @[Saicaca](https://github.com/saicaca) His inspiration was the main reason I created this theme
 
-@[WRXinYue](https://github.com/WRXinYue) Helped me a lot when I was getting started
+@[WRXinYue](https://github.com/WRXinYue) Helped me a lot during my early days

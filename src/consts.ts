@@ -2,9 +2,9 @@
 // You can import this data from anywhere in your site by using the `import` keyword.
 
 // Site title and description
-export const SITE_TAB = "Eric Zhao";
-export const SITE_TITLE = "Eric Zhao";
-export const SITE_DESCRIPTION = "Eric Zhao Blog";
+export const SITE_TAB = "ERIC ZHAO BLOG";
+export const SITE_TITLE = "小赵博客";
+export const SITE_DESCRIPTION = "小赵博客，Eric Zhao Blog";
 export const DATE_FORMAT = "ddd MMM DD YYYY";
 
 // User profile information
@@ -12,28 +12,7 @@ export const USER_NAME = "Eric Zhao";
 export const USER_AVATAR = "/profile.webp";
 
 // Server and transition settings
-export const SERVER_URL = "https://blog.ericzhao3366.tech";
-export const TRANSITION_API = true;
-
-// Site theme
-export const siteTheme = {
-  light: "winter",
-  dark: "dracula",
-};
-
-// Some informative text on the site
-export const infoTest = {
-  tag: "Tag: ",
-  noTag: "untagged",
-  tagCard: "Tags",
-  tagPage: "Tag - ",
-  noCategory: "uncategorized",
-  categoryCard: "Categories",
-  categoryPage: "Category - ",
-  link: "Link: ",
-  prevPage: "Recent posts",
-  nextPage: "Older posts",
-};
+export const SERVER_URL = "https://demo.saroprock.com";
 
 // Menu items for navigation
 export const menuItems = [
@@ -86,7 +65,7 @@ export const menuItems = [
   {
     id: "contact",
     text: "Contact",
-    href: "mailto:ericzhao3366@dingtalk.com", // Contact email
+    href: "mailto:contact.evesunmaple@outlook.com", // Contact email
     target: "_blank", // Open in a new tab
     svg: "contact",
   },
@@ -95,19 +74,19 @@ export const menuItems = [
 // Social media and contact icons
 export const socialIcons = [
   {
-    href: "mailto:ericzhao3366@dingtalk.com",
+    href: "https://afdian.net/a/saroprock",
     ariaLabel: "Support my work",
     title: "Support my work",
     svg: "support",
   },
   {
-    href: "https://github.com/ERIC-ZHAO-3366",
+    href: "https://github.com/EveSunMaple",
     ariaLabel: "Github",
     title: "Github",
     svg: "github",
   },
   {
-    href: "https://space.bilibili.com/485275168",
+    href: "https://space.bilibili.com/438392347",
     ariaLabel: "BiliBili",
     title: "BiliBili",
     svg: "bilibili",
