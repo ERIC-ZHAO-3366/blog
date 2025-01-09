@@ -14,7 +14,7 @@ export const USER_SITE = "https://blog.ericzhao3366.tech"; // At the same time, 
 export const USER_AVATAR = "/profile.webp";
 
 // Server and transition settings
-export const SERVER_URL = "https://blog.ericzhao3366.tech";
+export const SERVER_URL = "https://compent.ericzhao3366.tech";
 
 // Theme settings
 export const DAISYUI_THEME = {
