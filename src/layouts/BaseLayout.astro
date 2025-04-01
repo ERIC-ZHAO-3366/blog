@@ -49,7 +49,17 @@ const { title, image } = Astro.props;
 
   <body>
     <Navbar title={SITE_TITLE} />
-
+<script is:inline>
+  window.dingtalkAgentConfig = {
+   code: 'dcVcp3mBiy',
+   channel: 'blog',
+   orbIcon: '',
+  }
+ </script>
+ <script
+  src="https://g.alicdn.com/dingding-frontend/dd-lui-inside/0.0.6/magicOrb.js"
+  defer>
+ </script>
     <div class="max-w-6xl mx-auto">
       <div class="relative grid gap-4 p-0 lg:p-4 md:grid-cols-5 lg:grid-cols-4 top-20 md:top-0 text-base lg:text-lg">
         {/* Sidebar */}
